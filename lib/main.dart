@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:shopping_list_app/widgets/grocery_list.dart';
 import './theme.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: darkTheme,
-      home: const Scaffold(),
+      home: const GroceryList(),
     );
   }
 }
